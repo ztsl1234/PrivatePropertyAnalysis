@@ -1,0 +1,81 @@
+# Metadata for Private Property Price Index of Non-landed Residential Properties by Locality, Quarterly
+---
+Identifier: '787c93b2-892c-4b9c-8bb1-cddacc0ffc8c'
+Name: 'price-indices-of-non-landed-properties-by-locality'
+Title: 'Private Property Price Index of Non-landed Residential Properties by Locality,
+  Quarterly'
+Description:
+  - '__Core Central Region :__'
+  - ''
+  - 'Core Central Region comprises Postal Districts 9, 10, 11, Downtown Core Planning
+    Area and Sentosa.'
+  - ''
+  - '__Rest of Central Region : __'
+  - ''
+  - 'Rest of Central Region comprises the area within Central Region that is outside
+    postal districts 9, 10, 11, Downtown Core Planning Area and Sentosa.'
+  - ''
+  - 'A map of Central Region showing the Core Central Region (CCR) and the Rest of
+    Central Region (RCR) is available at: https://spring.ura.gov.sg/lad/ore/login/map_ccr.pdf'
+  - ''
+  - '__Outside Central Region :__'
+  - ''
+  - 'Outside Central Region (OCR) refers to the planning areas which are outside the
+    Central Region.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Apartment'
+  - 'CCR'
+  - 'Condominiums'
+  - 'Core Central Region'
+  - 'Cost of Living'
+  - 'Housing'
+  - 'Market segment'
+  - 'OCR'
+  - 'Outside Central Region'
+  - 'Private Property'
+  - 'Property'
+  - 'RCR'
+  - 'Rest of Central Region'
+  - 'non-landed'
+  - 'property price index'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'URA'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2004-01-01 to 2020-09-30'
+Last Updated: '2020-12-11T10:20:00.718600'
+Resources:
+  -
+    Identifier: 'f83f5994-e7f8-4dce-b70d-8e7b3cc3b8fb'
+    Title: 'Property Price Index of Non-landed Properties by Locality, Quarterly'
+    Url: 'https://storage.data.gov.sg/price-indices-of-non-landed-properties-by-locality/resources/property-price-index-of-non-landed-properties-by-locality-quarterly-2020-12-11T10-20-00Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2020-09-30'
+    Last Updated: '2020-12-11T10:20:00.270791'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'market_segment'
+        Title: 'Market Segment'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'price_index'
+        Title: 'Price Index (1Q2009=100)'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

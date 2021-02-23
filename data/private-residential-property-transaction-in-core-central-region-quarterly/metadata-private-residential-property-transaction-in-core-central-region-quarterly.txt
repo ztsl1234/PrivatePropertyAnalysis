@@ -1,0 +1,80 @@
+# Metadata for Private Residential Property Transactions in Core Central Region, Quarterly
+---
+Identifier: '6e5d66b8-f149-4a98-beb3-7d7ed4821947'
+Name: 'private-residential-property-transaction-in-core-central-region-quarterly'
+Title: 'Private Residential Property Transactions in Core Central Region, Quarterly'
+Description:
+  - 'Dataset includes number of new sale, sub-sale and resale transactions for private
+    residential units in the Core Central Region'
+  - ''
+  - '__Core Central Region : __'
+  - ''
+  - 'Comprises of Postal Districts 9, 10, 11, Downtown Core Planning Area and Sentosa.'
+  - ''
+  - 'A map of Central Region showing the Core Central Region (CCR) and the Rest of
+    Central Region (RCR) is available at: https://spring.ura.gov.sg/lad/ore/login/map_ccr.pdf'
+  - ''
+  - '__New Sale /  Sub-sale : __'
+  - ''
+  - 'Data on New Sale are final and will not be revised as they are compiled based
+    on returns from licensed developers. Data on the number of Sub-sale and Resale
+    units excludes en-bloc sale units and are collated from records submitted to Inland
+    Revenue Authority of Singapore for stamp duty payments from 1Q2015. Prior to 1Q2015,
+    Sub-sale and Resale data were compiled from caveats lodged to the Singapore Land
+    Authority. As the latter (i.e. lodgment of caveats) is voluntary, caveats account
+    for about 80 to 90% of all sub-sale and resale transactions. Hence, please note
+    that data from 1Q2015 may not be directly comparable to figures in the previous
+    quarters.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Housing'
+  - 'Private Property'
+  - 'Property'
+Publisher:
+  Name: 'Urban Redevelopment Authority'
+  Admin 1:
+    Name: 'Chee Tuck Chuen'
+    Department: 'Property Research'
+    Email: 'chee_tuck_chuen@ura.gov.sg'
+Sources:
+  - 'Urban Redevelopment Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2004-01-01 to 2020-09-30'
+Last Updated: '2020-12-10T08:25:31.829745'
+Resources:
+  -
+    Identifier: '8facb87d-603d-40c1-9abf-f3bd2f57bfc2'
+    Title: 'Private Residential Property Transactions in Core Central Region, Quarterly'
+    Url: 'https://storage.data.gov.sg/private-residential-property-transaction-in-core-central-region-quarterly/resources/private-residential-property-transactions-in-core-central-region-quarterly-2020-12-10T08-25-31Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2020-09-30'
+    Description: 'Core Central Region comprises Postal Districts 9, 10, 11, Downtown
+      Core Planning Area and Sentosa. A map of Central Region showing the Core Central
+      Region (CCR) and the Rest of Central Region (RCR) is available at: https://spring.ura.gov.sg/lad/ore/login/map_ccr.pdf'
+    Last Updated: '2020-12-10T08:25:31.387635'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'type_of_sale'
+        Title: 'Type of sale'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'sale_status'
+        Title: 'Sale status'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'units'
+        Title: 'Units'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Units'
